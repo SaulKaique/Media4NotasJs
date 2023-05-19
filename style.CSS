@@ -1,0 +1,29 @@
+html{
+    height: 100%;
+
+}
+
+body{
+
+background-image: linear-gradient(to bottom, rgb(15, 15, 192) , rgb(143, 40, 226) , rgb(59, 55, 55));
+
+}
+
+
+
+
+#nome{
+        position: relative;
+        left: 720px;
+
+
+
+}
+
+#Mudar{
+    position: absolute;
+    left: 770px;
+    top: 460px;
+    font-size: 60px;
+}
+
