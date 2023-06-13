@@ -10,20 +10,86 @@ background-image: linear-gradient(to bottom, rgb(15, 15, 192) , rgb(143, 40, 226
 }
 
 
+.container{
+    display: flex;
 
+}
 
-#nome{
+#envi{
         position: relative;
-        left: 720px;
+        top: 0px;
+        left: 300px;
+        height: 60px;
+        width: 100px;
+}
 
+#Nota1{
+        height:30px ;
 
 
 }
 
-#Mudar{
-    position: absolute;
-    left: 770px;
-    top: 460px;
-    font-size: 60px;
+#Nota2{
+    height:30px ;
+
+
 }
+
+#Nota3{
+    height:30px ;
+
+
+}
+
+#Nota4{
+    height:30px ;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form{
+    background-image: linear-gradient(to bottom  left,rgb(18, 140, 156), rgb(117, 30, 189) );
+    width: 600px;
+    
+    position: relative;
+    left: 470px;
+
+}
+
+
+h2{
+    position: relative;
+    text-align: center;
+    
+
+}
+
 
